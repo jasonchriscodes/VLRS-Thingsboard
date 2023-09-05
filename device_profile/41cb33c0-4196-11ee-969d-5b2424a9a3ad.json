@@ -10,7 +10,10 @@
       "id" : "40efc7e0-4196-11ee-969d-5b2424a9a3ad"
     },
     "description" : "Thermostat device profile",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "41cb33c0-4196-11ee-969d-5b2424a9a3ad"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE_PROFILE",
