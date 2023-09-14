@@ -22,22 +22,19 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "401a4f70-4196-11ee-969d-5b2424a9a3ad"
     },
-    "externalId" : {
-      "entityType" : "DEVICE",
-      "id" : "630a8b30-46be-11ee-8816-b3b2ecd2ae97"
-    },
+    "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "630a8b30-46be-11ee-8816-b3b2ecd2ae97"
+      "id" : "0c280730-5036-11ee-8816-b3b2ecd2ae97"
     },
     "label" : "",
-    "name" : "Jason's Android",
+    "name" : "Ajit's Android Device",
     "softwareId" : null,
     "type" : "default"
   },
   "credentials" : {
-    "credentialsId" : "cngz9qqls7dk5zgi3y4j",
+    "credentialsId" : "SZBwGNds0UYx5YKLZG1s",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -48,7 +45,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1694619345407,
+      "lastUpdateTs" : 1694591865329,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -56,32 +53,32 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1694619345407,
-      "longValue" : 1694619345406,
+      "lastUpdateTs" : 1694591865329,
+      "longValue" : 1694591865329,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1694618707339,
-      "longValue" : 1694618705945,
+      "lastUpdateTs" : 1694591215320,
+      "longValue" : 1694591215263,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1694618306007,
-      "longValue" : 1694618306007,
+      "lastUpdateTs" : 1694590537237,
+      "longValue" : 1694590537237,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1694618705959,
-      "longValue" : 1694618705959,
+      "lastUpdateTs" : 1694591215267,
+      "longValue" : 1694591215267,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

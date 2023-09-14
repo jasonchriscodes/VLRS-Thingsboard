@@ -41,6 +41,13 @@
                 "color" : "#f44336",
                 "settings" : { },
                 "_hash" : 0.1454277433463964
+              }, {
+                "name" : "speed",
+                "type" : "timeseries",
+                "label" : "speed",
+                "color" : "#ffc107",
+                "settings" : { },
+                "_hash" : 0.608448141439538
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -265,6 +272,13 @@
                 "color" : "#f44336",
                 "settings" : { },
                 "_hash" : 0.9446035737070828
+              }, {
+                "name" : "speed",
+                "type" : "timeseries",
+                "label" : "speed",
+                "color" : "#ffc107",
+                "settings" : { },
+                "_hash" : 0.2895993057036752
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -304,16 +318,16 @@
             "main" : {
               "widgets" : {
                 "0062822b-4787-cd2e-41c5-27cdb412660b" : {
-                  "sizeX" : 12,
+                  "sizeX" : 10,
                   "sizeY" : 10,
                   "row" : 0,
                   "col" : 0
                 },
                 "08910657-a30f-4409-826e-378e603a24ee" : {
-                  "sizeX" : 12,
+                  "sizeX" : 14,
                   "sizeY" : 10,
                   "row" : 0,
-                  "col" : 12
+                  "col" : 10
                 }
               },
               "gridSettings" : {
