@@ -32,7 +32,7 @@
       "id" : "630a8b30-46be-11ee-8816-b3b2ecd2ae97"
     },
     "label" : "",
-    "name" : "Jason's Android",
+    "name" : "Bus A Device",
     "softwareId" : null,
     "type" : "default"
   },
@@ -44,11 +44,11 @@
   "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : false,
+      "booleanValue" : true,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1696418150019,
+      "lastUpdateTs" : 1696946414927,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -56,32 +56,32 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1696418150019,
-      "longValue" : 1696418150019,
+      "lastUpdateTs" : 1696913451243,
+      "longValue" : 1696913451243,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1696417546326,
-      "longValue" : 1696417545377,
+      "lastUpdateTs" : 1696946533334,
+      "longValue" : 1696946531585,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1696413060700,
-      "longValue" : 1696413060700,
+      "lastUpdateTs" : 1696946419065,
+      "longValue" : 1696946419065,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1696417545385,
-      "longValue" : 1696417545385,
+      "lastUpdateTs" : 1696946418031,
+      "longValue" : 1696946418031,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ {
