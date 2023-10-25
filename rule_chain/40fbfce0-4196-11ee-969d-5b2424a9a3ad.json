@@ -10,7 +10,7 @@
     },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "40fe46d0-4196-11ee-969d-5b2424a9a3ad"
+      "id" : "1fd75680-4c1e-11ee-8816-b3b2ecd2ae97"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -52,7 +52,7 @@
     }, {
       "fromIndex" : 3,
       "toIndex" : 6,
-      "type" : "RPC Request to Device"
+      "type" : "Attributes Deleted"
     }, {
       "fromIndex" : 3,
       "toIndex" : 8,
@@ -78,7 +78,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "40fe46d0-4196-11ee-969d-5b2424a9a3ad"
+        "id" : "1fd75680-4c1e-11ee-8816-b3b2ecd2ae97"
       },
       "name" : "Device Profile Node",
       "ruleChainId" : null,
@@ -97,7 +97,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "40ffcd70-4196-11ee-969d-5b2424a9a3ad"
+        "id" : "1fd840e0-4c1e-11ee-8816-b3b2ecd2ae97"
       },
       "name" : "Save Timeseries",
       "ruleChainId" : null,
@@ -117,7 +117,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "4101f050-4196-11ee-969d-5b2424a9a3ad"
+        "id" : "1fd867f0-4c1e-11ee-8816-b3b2ecd2ae97"
       },
       "name" : "Save Client Attributes",
       "ruleChainId" : null,
@@ -136,7 +136,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "410376f0-4196-11ee-969d-5b2424a9a3ad"
+        "id" : "1fd88f00-4c1e-11ee-8816-b3b2ecd2ae97"
       },
       "name" : "Message Type Switch",
       "ruleChainId" : null,
@@ -157,7 +157,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "41041330-4196-11ee-969d-5b2424a9a3ad"
+        "id" : "1fd88f01-4c1e-11ee-8816-b3b2ecd2ae97"
       },
       "name" : "Log RPC from Device",
       "ruleChainId" : null,
@@ -178,7 +178,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "4104d680-4196-11ee-969d-5b2424a9a3ad"
+        "id" : "1fd8b610-4c1e-11ee-8816-b3b2ecd2ae97"
       },
       "name" : "Log Other",
       "ruleChainId" : null,
@@ -197,7 +197,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "410599d0-4196-11ee-969d-5b2424a9a3ad"
+        "id" : "1fd8dd20-4c1e-11ee-8816-b3b2ecd2ae97"
       },
       "name" : "RPC Call Request",
       "ruleChainId" : null,
@@ -216,7 +216,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "41063610-4196-11ee-969d-5b2424a9a3ad"
+        "id" : "1fd8dd21-4c1e-11ee-8816-b3b2ecd2ae97"
       },
       "name" : "Push to cloud",
       "ruleChainId" : null,
@@ -235,7 +235,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "4106f960-4196-11ee-969d-5b2424a9a3ad"
+        "id" : "1fd90430-4c1e-11ee-8816-b3b2ecd2ae97"
       },
       "name" : "Push to cloud",
       "ruleChainId" : null,

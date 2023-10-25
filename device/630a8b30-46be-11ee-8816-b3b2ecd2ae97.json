@@ -44,11 +44,11 @@
   "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : true,
+      "booleanValue" : false,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1696946414927,
+      "lastUpdateTs" : 1698067074045,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -56,32 +56,32 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1696913451243,
-      "longValue" : 1696913451243,
+      "lastUpdateTs" : 1698067074045,
+      "longValue" : 1698067074045,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1696946533334,
-      "longValue" : 1696946531585,
+      "lastUpdateTs" : 1698066472323,
+      "longValue" : 1698066471377,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1696946419065,
-      "longValue" : 1696946419065,
+      "lastUpdateTs" : 1698065550671,
+      "longValue" : 1698065550671,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1696946418031,
-      "longValue" : 1696946418031,
+      "lastUpdateTs" : 1698066471389,
+      "longValue" : 1698066471389,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ {
@@ -95,11 +95,35 @@
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
+      "jsonValue" : "{\"1\":[{\"latitude\":-36.853974,\"longitude\":174.767387},{\"latitude\":-36.853979,\"longitude\":174.767386},{\"latitude\":-36.854016,\"longitude\":174.767695},{\"latitude\":-36.85402,\"longitude\":174.767731},{\"latitude\":-36.85402,\"longitude\":174.767731},{\"latitude\":-36.854029,\"longitude\":174.767811},{\"latitude\":-36.854048,\"longitude\":174.768003},{\"latitude\":-36.854069,\"longitude\":174.768125},{\"latitude\":-36.854093,\"longitude\":174.768102},{\"latitude\":-36.854093,\"longitude\":174.768102},{\"latitude\":-36.854164,\"longitude\":174.768037},{\"latitude\":-36.854266,\"longitude\":174.768003},{\"latitude\":-36.854314,\"longitude\":174.767958},{\"latitude\":-36.854314,\"longitude\":174.767958},{\"latitude\":-36.854376,\"longitude\":174.7679},{\"latitude\":-36.854684,\"longitude\":174.767631},{\"latitude\":-36.854751,\"longitude\":174.767562},{\"latitude\":-36.854751,\"longitude\":174.767562},{\"latitude\":-36.85482,\"longitude\":174.767492},{\"latitude\":-36.854767,\"longitude\":174.767378},{\"latitude\":-36.854765,\"longitude\":174.767365},{\"latitude\":-36.854765,\"longitude\":174.767365},{\"latitude\":-36.854711,\"longitude\":174.766964},{\"latitude\":-36.854711,\"longitude\":174.766964},{\"latitude\":-36.854631,\"longitude\":174.766367},{\"latitude\":-36.854632,\"longitude\":174.766358},{\"latitude\":-36.854632,\"longitude\":174.766358},{\"latitude\":-36.854637,\"longitude\":174.766315},{\"latitude\":-36.854844,\"longitude\":174.765769},{\"latitude\":-36.854844,\"longitude\":174.765769},{\"latitude\":-36.854897,\"longitude\":174.765629},{\"latitude\":-36.85481,\"longitude\":174.765579},{\"latitude\":-36.85481,\"longitude\":174.765579},{\"latitude\":-36.854712,\"longitude\":174.765522},{\"latitude\":-36.854653,\"longitude\":174.765488},{\"latitude\":-36.854496,\"longitude\":174.765397},{\"latitude\":-36.854483,\"longitude\":174.76539},{\"latitude\":-36.854483,\"longitude\":174.76539},{\"latitude\":-36.85447,\"longitude\":174.765382},{\"latitude\":-36.85422,\"longitude\":174.765238},{\"latitude\":-36.854086,\"longitude\":174.76516},{\"latitude\":-36.854086,\"longitude\":174.76516},{\"latitude\":-36.854041,\"longitude\":174.765134},{\"latitude\":-36.853973,\"longitude\":174.765317},{\"latitude\":-36.853973,\"longitude\":174.765317},{\"latitude\":-36.853817,\"longitude\":174.765736},{\"latitude\":-36.853817,\"longitude\":174.765736},{\"latitude\":-36.853799,\"longitude\":174.765784},{\"latitude\":-36.853815,\"longitude\":174.765928},{\"latitude\":-36.853815,\"longitude\":174.765928},{\"latitude\":-36.853856,\"longitude\":174.766321},{\"latitude\":-36.853856,\"longitude\":174.766321},{\"latitude\":-36.853863,\"longitude\":174.766381},{\"latitude\":-36.853894,\"longitude\":174.76667},{\"latitude\":-36.853925,\"longitude\":174.766926},{\"latitude\":-36.853925,\"longitude\":174.766926},{\"latitude\":-36.853979,\"longitude\":174.767386},{\"latitude\":-36.853973,\"longitude\":174.767387}]}",
+      "key" : "busRoute2",
+      "lastUpdateTs" : 1697223884553,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
       "jsonValue" : "{\"1\":[{\"latitude\":-36.78012,\"longitude\":174.99216},{\"latitude\":-36.78139,\"longitude\":175.007},{\"latitude\":-36.78338,\"longitude\":175.01086},{\"latitude\":-36.79883,\"longitude\":175.03447},{\"latitude\":-36.79589,\"longitude\":175.04737},{\"latitude\":-36.80141,\"longitude\":175.06579},{\"latitude\":-36.80106,\"longitude\":175.06972},{\"latitude\":-36.79887,\"longitude\":175.07527},{\"latitude\":-36.78842,\"longitude\":175.08309},{\"latitude\":-36.8011,\"longitude\":175.06984},{\"latitude\":-36.80149,\"longitude\":175.06619},{\"latitude\":-36.81456,\"longitude\":175.08249},{\"latitude\":-36.80916,\"longitude\":175.06174},{\"latitude\":-36.79601,\"longitude\":175.04829},{\"latitude\":-36.79689,\"longitude\":175.03242},{\"latitude\":-36.78365,\"longitude\":175.01139},{\"latitude\":-36.79159,\"longitude\":174.99938},{\"latitude\":-36.78724,\"longitude\":175.00125},{\"latitude\":-36.78012,\"longitude\":174.99216}]}",
       "key" : "busStop",
       "lastUpdateTs" : 1694679339209,
       "longValue" : null,
       "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"1\":[{\"latitude\":-36.85397535118678,\"longitude\":174.76709223611678},{\"latitude\":-36.85426948446462,\"longitude\":174.76789229923398},{\"latitude\":-36.85469367666025,\"longitude\":174.76728480938263},{\"latitude\":-36.854724228079824,\"longitude\":174.76597568843115},{\"latitude\":-36.85469367666025,\"longitude\":174.76728480938263},{\"latitude\":-36.854132061662746,\"longitude\":174.765265325672}]}",
+      "key" : "busStop2",
+      "lastUpdateTs" : 1697222304451,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "message",
+      "lastUpdateTs" : 1698272371355,
+      "longValue" : null,
+      "strValue" : "Bus 1"
     } ]
   }
 }

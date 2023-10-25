@@ -18,7 +18,7 @@
             "datasources" : [ {
               "type" : "entity",
               "name" : null,
-              "entityAliasId" : "dbda8001-2ab5-90cf-3907-f47e4a304699",
+              "entityAliasId" : "bc94b798-c312-7699-16f4-ebcbd49460c3",
               "filterId" : null,
               "dataKeys" : [ {
                 "name" : "latitude",
@@ -245,40 +245,54 @@
               "padding" : "5px 10px 5px 10px"
             },
             "useDashboardTimewindow" : false,
-            "showLegend" : true,
+            "showLegend" : false,
             "datasources" : [ {
               "type" : "entity",
               "name" : null,
-              "entityAliasId" : "dbda8001-2ab5-90cf-3907-f47e4a304699",
+              "entityAliasId" : "bc94b798-c312-7699-16f4-ebcbd49460c3",
               "filterId" : null,
               "dataKeys" : [ {
+                "name" : "bearing",
+                "type" : "timeseries",
+                "label" : "bearing",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.7298720365462266
+              }, {
+                "name" : "direction",
+                "type" : "timeseries",
+                "label" : "direction",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.8251212651593327
+              }, {
                 "name" : "latitude",
                 "type" : "timeseries",
                 "label" : "latitude",
-                "color" : "#2196f3",
+                "color" : "#f44336",
                 "settings" : { },
-                "_hash" : 0.19726934679977437
+                "_hash" : 0.5690329247128716
               }, {
                 "name" : "longitude",
                 "type" : "timeseries",
                 "label" : "longitude",
-                "color" : "#4caf50",
+                "color" : "#ffc107",
                 "settings" : { },
-                "_hash" : 0.48812126291197444
-              }, {
-                "name" : "bearing",
-                "type" : "timeseries",
-                "label" : "bearing",
-                "color" : "#f44336",
-                "settings" : { },
-                "_hash" : 0.9446035737070828
+                "_hash" : 0.13058369046994978
               }, {
                 "name" : "speed",
                 "type" : "timeseries",
                 "label" : "speed",
-                "color" : "#ffc107",
+                "color" : "#607d8b",
                 "settings" : { },
-                "_hash" : 0.2895993057036752
+                "_hash" : 0.8398476130129364
+              }, {
+                "name" : "message",
+                "type" : "attribute",
+                "label" : "message",
+                "color" : "#9c27b0",
+                "settings" : { },
+                "_hash" : 0.07319891678891022
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -346,6 +360,387 @@
           "row" : 0,
           "col" : 0,
           "id" : "8f27c523-5b91-44d0-2b97-534a16209b0e"
+        },
+        "face39ea-83e3-b538-e806-4e9171e2ca69" : {
+          "isSystemType" : true,
+          "bundleAlias" : "charts",
+          "typeAlias" : "basic_timeseries",
+          "type" : "timeseries",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 8,
+          "sizeY" : 5,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "bc94b798-c312-7699-16f4-ebcbd49460c3",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "bearing",
+                "type" : "timeseries",
+                "label" : "bearing",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.1807846581280883
+              }, {
+                "name" : "direction",
+                "type" : "timeseries",
+                "label" : "direction",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.38163404008883406
+              }, {
+                "name" : "latitude",
+                "type" : "timeseries",
+                "label" : "latitude",
+                "color" : "#f44336",
+                "settings" : { },
+                "_hash" : 0.11567858395787112
+              }, {
+                "name" : "longitude",
+                "type" : "timeseries",
+                "label" : "longitude",
+                "color" : "#ffc107",
+                "settings" : { },
+                "_hash" : 0.4429067888719358
+              }, {
+                "name" : "speed",
+                "type" : "timeseries",
+                "label" : "speed",
+                "color" : "#607d8b",
+                "settings" : { },
+                "_hash" : 0.1250815749993186
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              },
+              "latestDataKeys" : [ ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "shadowSize" : 4,
+              "fontColor" : "#545454",
+              "fontSize" : 10,
+              "xaxis" : {
+                "showLabels" : true,
+                "color" : "#545454"
+              },
+              "yaxis" : {
+                "showLabels" : true,
+                "color" : "#545454"
+              },
+              "grid" : {
+                "color" : "#545454",
+                "tickColor" : "#DDDDDD",
+                "verticalLines" : true,
+                "horizontalLines" : true,
+                "outlineWidth" : 1
+              },
+              "legend" : {
+                "show" : true,
+                "position" : "nw",
+                "backgroundColor" : "#f0f0f0",
+                "backgroundOpacity" : 0.85,
+                "labelBoxBorderColor" : "rgba(1, 1, 1, 0.45)"
+              },
+              "decimals" : 1,
+              "stack" : false,
+              "tooltipIndividual" : false
+            },
+            "title" : "New Timeseries Line Chart",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "face39ea-83e3-b538-e806-4e9171e2ca69"
+        },
+        "664c874f-d880-16fb-93c0-db27cc6d4b69" : {
+          "isSystemType" : true,
+          "bundleAlias" : "input_widgets",
+          "typeAlias" : "update_shared_string_attribute",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "bc94b798-c312-7699-16f4-ebcbd49460c3",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "message",
+                "type" : "attribute",
+                "label" : "message",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.3586538054646773
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1697178686423,
+                  "endTimeMs" : 1697265086423
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : { },
+            "title" : "Send Announcement",
+            "dropShadow" : true,
+            "enableFullscreen" : false,
+            "enableDataExport" : false,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "actions" : { },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : ""
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "664c874f-d880-16fb-93c0-db27cc6d4b69"
+        },
+        "5246a4d8-6471-d6cd-2b06-37daadf2e884" : {
+          "isSystemType" : true,
+          "bundleAlias" : "alarm_widgets",
+          "typeAlias" : "alarms_table",
+          "type" : "alarm",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 10.5,
+          "sizeY" : 6.5,
+          "config" : {
+            "timewindow" : {
+              "realtime" : {
+                "interval" : 1000,
+                "timewindowMs" : 86400000
+              },
+              "aggregation" : {
+                "type" : "NONE",
+                "limit" : 200
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "4px",
+            "settings" : {
+              "enableSelection" : true,
+              "enableSearch" : true,
+              "displayDetails" : true,
+              "allowAcknowledgment" : true,
+              "allowClear" : true,
+              "allowAssign" : true,
+              "displayActivity" : true,
+              "displayPagination" : true,
+              "defaultPageSize" : 10,
+              "defaultSortOrder" : "-createdTime",
+              "enableSelectColumnDisplay" : true,
+              "enableStickyAction" : false,
+              "enableFilter" : true
+            },
+            "title" : "Delay Alarm",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400,
+              "padding" : "5px 10px 5px 10px"
+            },
+            "useDashboardTimewindow" : false,
+            "showLegend" : false,
+            "alarmSource" : {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "bc94b798-c312-7699-16f4-ebcbd49460c3",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "createdTime",
+                "type" : "alarm",
+                "label" : "Created time",
+                "color" : "#2196f3",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.021092237451093787
+              }, {
+                "name" : "originator",
+                "type" : "alarm",
+                "label" : "Originator",
+                "color" : "#4caf50",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.2780007688856758
+              }, {
+                "name" : "type",
+                "type" : "alarm",
+                "label" : "Type",
+                "color" : "#f44336",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.7323586880398418
+              }, {
+                "name" : "severity",
+                "type" : "alarm",
+                "label" : "Severity",
+                "color" : "#ffc107",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "useCellContentFunction" : false
+                },
+                "_hash" : 0.09927019860088193
+              }, {
+                "name" : "status",
+                "type" : "alarm",
+                "label" : "Status",
+                "color" : "#607d8b",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.6588418951443418
+              }, {
+                "name" : "assignee",
+                "type" : "alarm",
+                "label" : "Assignee",
+                "color" : "#9c27b0",
+                "settings" : { },
+                "_hash" : 0.5008441077416634
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            },
+            "alarmsPollingInterval" : 5,
+            "showTitleIcon" : false,
+            "titleIcon" : "more_horiz",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "titleTooltip" : "",
+            "widgetStyle" : { },
+            "displayTimewindow" : true,
+            "actions" : { },
+            "datasources" : [ ],
+            "alarmFilterConfig" : {
+              "statusList" : [ ],
+              "severityList" : [ ],
+              "typeList" : [ ],
+              "searchPropagatedAlarms" : false
+            },
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : ""
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "5246a4d8-6471-d6cd-2b06-37daadf2e884"
+        },
+        "2bfac387-f075-b27d-59ef-ebc19676d1d8" : {
+          "isSystemType" : true,
+          "bundleAlias" : "navigation_widgets",
+          "typeAlias" : "navigation_card",
+          "type" : "static",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 2.5,
+          "sizeY" : 2,
+          "config" : {
+            "datasources" : [ ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : false,
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "color" : "rgba(255,255,255,0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "name" : "{i18n:device.devices}",
+              "icon" : "devices_other",
+              "path" : "/devices"
+            },
+            "title" : "New Navigation card",
+            "dropShadow" : false,
+            "showTitleIcon" : false,
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "titleTooltip" : "",
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "showLegend" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "2bfac387-f075-b27d-59ef-ebc19676d1d8"
         }
       },
       "states" : {
@@ -356,22 +751,46 @@
             "main" : {
               "widgets" : {
                 "0062822b-4787-cd2e-41c5-27cdb412660b" : {
-                  "sizeX" : 10,
-                  "sizeY" : 10,
+                  "sizeX" : 16,
+                  "sizeY" : 9,
                   "row" : 0,
                   "col" : 0
                 },
                 "08910657-a30f-4409-826e-378e603a24ee" : {
-                  "sizeX" : 14,
-                  "sizeY" : 10,
+                  "sizeX" : 8,
+                  "sizeY" : 4,
                   "row" : 0,
-                  "col" : 10
+                  "col" : 16
                 },
                 "8f27c523-5b91-44d0-2b97-534a16209b0e" : {
                   "sizeX" : 7,
                   "sizeY" : 3,
-                  "row" : 10,
+                  "row" : 16,
                   "col" : 0
+                },
+                "face39ea-83e3-b538-e806-4e9171e2ca69" : {
+                  "sizeX" : 8,
+                  "sizeY" : 5,
+                  "row" : 4,
+                  "col" : 16
+                },
+                "664c874f-d880-16fb-93c0-db27cc6d4b69" : {
+                  "sizeX" : 7,
+                  "sizeY" : 3,
+                  "row" : 9,
+                  "col" : 0
+                },
+                "5246a4d8-6471-d6cd-2b06-37daadf2e884" : {
+                  "sizeX" : 9,
+                  "sizeY" : 3,
+                  "row" : 9,
+                  "col" : 7
+                },
+                "2bfac387-f075-b27d-59ef-ebc19676d1d8" : {
+                  "sizeX" : 8,
+                  "sizeY" : 3,
+                  "row" : 9,
+                  "col" : 16
                 }
               },
               "gridSettings" : {
@@ -386,16 +805,38 @@
         }
       },
       "entityAliases" : {
-        "dbda8001-2ab5-90cf-3907-f47e4a304699" : {
-          "id" : "dbda8001-2ab5-90cf-3907-f47e4a304699",
-          "alias" : "Jason's Android",
+        "1b1156e7-5e44-ade0-f268-aa0b4b1df806" : {
+          "id" : "1b1156e7-5e44-ade0-f268-aa0b4b1df806",
+          "alias" : "Bus B",
           "filter" : {
             "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "d7c0f630-638d-11ee-8816-b3b2ecd2ae97"
+            }
+          }
+        },
+        "d8a7f612-dab4-916d-b1ad-25e99837073c" : {
+          "id" : "d8a7f612-dab4-916d-b1ad-25e99837073c",
+          "alias" : "Bus A",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
             "singleEntity" : {
               "entityType" : "DEVICE",
               "id" : "630a8b30-46be-11ee-8816-b3b2ecd2ae97"
-            },
-            "resolveMultiple" : false
+            }
+          }
+        },
+        "bc94b798-c312-7699-16f4-ebcbd49460c3" : {
+          "id" : "bc94b798-c312-7699-16f4-ebcbd49460c3",
+          "alias" : "Buses",
+          "filter" : {
+            "type" : "entityList",
+            "resolveMultiple" : true,
+            "entityType" : "DEVICE",
+            "entityList" : [ "d7c0f630-638d-11ee-8816-b3b2ecd2ae97", "630a8b30-46be-11ee-8816-b3b2ecd2ae97", "dfe1cff0-71a3-11ee-8816-b3b2ecd2ae97" ]
           }
         }
       },
@@ -451,8 +892,8 @@
     "image" : null,
     "mobileHide" : false,
     "mobileOrder" : null,
-    "name" : "VLRS Map",
-    "title" : "VLRS Map"
+    "name" : "VLRS Dashboard",
+    "title" : "VLRS Dashboard"
   },
   "relations" : [ ],
   "attributes" : {
