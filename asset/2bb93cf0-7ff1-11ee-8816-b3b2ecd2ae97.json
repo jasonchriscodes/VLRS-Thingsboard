@@ -21,31 +21,7 @@
     "name" : "asset-test",
     "type" : "default"
   },
-  "relations" : [ {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "DEVICE",
-      "id" : "169e5c60-78a8-11ee-8816-b3b2ecd2ae97"
-    },
-    "to" : {
-      "entityType" : "ASSET",
-      "id" : "2bb93cf0-7ff1-11ee-8816-b3b2ecd2ae97"
-    },
-    "type" : "Manages",
-    "typeGroup" : "COMMON"
-  }, {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "DEVICE",
-      "id" : "1d19c110-78a8-11ee-8816-b3b2ecd2ae97"
-    },
-    "to" : {
-      "entityType" : "ASSET",
-      "id" : "2bb93cf0-7ff1-11ee-8816-b3b2ecd2ae97"
-    },
-    "type" : "Manages",
-    "typeGroup" : "COMMON"
-  } ],
+  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : null,
