@@ -41,14 +41,26 @@
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
-  "relations" : [ ],
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "630a8b30-46be-11ee-8816-b3b2ecd2ae97"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "dfe1cff0-71a3-11ee-8816-b3b2ecd2ae97"
+    },
+    "type" : "Manages",
+    "typeGroup" : "COMMON"
+  } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : false,
+      "booleanValue" : true,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1698067074045,
+      "lastUpdateTs" : 1701223078360,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -56,32 +68,32 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1698067074045,
-      "longValue" : 1698067074045,
+      "lastUpdateTs" : 1700430539893,
+      "longValue" : 1700430539890,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1698066472323,
-      "longValue" : 1698066471377,
+      "lastUpdateTs" : 1701223237322,
+      "longValue" : 1701223237293,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1698065550671,
-      "longValue" : 1698065550671,
+      "lastUpdateTs" : 1701223100446,
+      "longValue" : 1701223100446,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1698066471389,
-      "longValue" : 1698066471389,
+      "lastUpdateTs" : 1700429926946,
+      "longValue" : 1700429926946,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ {
@@ -121,9 +133,9 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "message",
-      "lastUpdateTs" : 1698272371355,
+      "lastUpdateTs" : 1700403698838,
       "longValue" : null,
-      "strValue" : "Bus 1"
+      "strValue" : "test 67566"
     } ]
   }
 }

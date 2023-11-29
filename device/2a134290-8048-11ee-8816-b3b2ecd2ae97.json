@@ -8,7 +8,7 @@
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
-      "id" : "7f40a560-4721-11ee-8816-b3b2ecd2ae97"
+      "id" : "9862fe60-8044-11ee-8816-b3b2ecd2ae97"
     },
     "deviceData" : {
       "configuration" : {
@@ -20,21 +20,21 @@
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "401a4f70-4196-11ee-969d-5b2424a9a3ad"
+      "id" : "fb88bd60-8047-11ee-8816-b3b2ecd2ae97"
     },
     "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "d7c0f630-638d-11ee-8816-b3b2ecd2ae97"
+      "id" : "2a134290-8048-11ee-8816-b3b2ecd2ae97"
     },
-    "label" : "",
-    "name" : "Bus B Device",
+    "label" : "Test-Lucky2",
+    "name" : "Test-Lucky2",
     "softwareId" : null,
-    "type" : "default"
+    "type" : "profileLucky"
   },
   "credentials" : {
-    "credentialsId" : "YiSbp8zzJyt3htZ7ECI0",
+    "credentialsId" : "8pMNLCHXLjVGIZRFFNTg",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -42,11 +42,11 @@
     "additionalInfo" : null,
     "from" : {
       "entityType" : "DEVICE",
-      "id" : "d7c0f630-638d-11ee-8816-b3b2ecd2ae97"
+      "id" : "2a134290-8048-11ee-8816-b3b2ecd2ae97"
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "dfe1cff0-71a3-11ee-8816-b3b2ecd2ae97"
+      "id" : "fbe27620-8047-11ee-8816-b3b2ecd2ae97"
     },
     "type" : "Manages",
     "typeGroup" : "COMMON"
@@ -57,7 +57,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1700069038900,
+      "lastUpdateTs" : 1699676397767,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -65,42 +65,18 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1700069038900,
-      "longValue" : 1700069038900,
-      "strValue" : null
-    }, {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "lastActivityTime",
-      "lastUpdateTs" : 1700068390341,
-      "longValue" : 1700068388706,
-      "strValue" : null
-    }, {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "lastConnectTime",
-      "lastUpdateTs" : 1700068388638,
-      "longValue" : 1700068388638,
-      "strValue" : null
-    }, {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1700068388727,
-      "longValue" : 1700068388727,
+      "lastUpdateTs" : 1699676397767,
+      "longValue" : 1699676397767,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
-      "key" : "message",
-      "lastUpdateTs" : 1700403698825,
+      "key" : "updateMessage",
+      "lastUpdateTs" : 1699682618378,
       "longValue" : null,
-      "strValue" : "test 67566"
+      "strValue" : "pp"
     } ]
   }
 }

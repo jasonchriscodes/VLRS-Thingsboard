@@ -252,47 +252,12 @@
               "entityAliasId" : "bc94b798-c312-7699-16f4-ebcbd49460c3",
               "filterId" : null,
               "dataKeys" : [ {
-                "name" : "bearing",
-                "type" : "timeseries",
-                "label" : "bearing",
-                "color" : "#2196f3",
-                "settings" : { },
-                "_hash" : 0.7298720365462266
-              }, {
-                "name" : "direction",
-                "type" : "timeseries",
-                "label" : "direction",
-                "color" : "#4caf50",
-                "settings" : { },
-                "_hash" : 0.8251212651593327
-              }, {
-                "name" : "latitude",
-                "type" : "timeseries",
-                "label" : "latitude",
-                "color" : "#f44336",
-                "settings" : { },
-                "_hash" : 0.5690329247128716
-              }, {
-                "name" : "longitude",
-                "type" : "timeseries",
-                "label" : "longitude",
-                "color" : "#ffc107",
-                "settings" : { },
-                "_hash" : 0.13058369046994978
-              }, {
-                "name" : "speed",
-                "type" : "timeseries",
-                "label" : "speed",
-                "color" : "#607d8b",
-                "settings" : { },
-                "_hash" : 0.8398476130129364
-              }, {
                 "name" : "message",
                 "type" : "attribute",
                 "label" : "message",
-                "color" : "#9c27b0",
+                "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.07319891678891022
+                "_hash" : 0.7654247846466307
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -469,85 +434,6 @@
           "row" : 0,
           "col" : 0,
           "id" : "face39ea-83e3-b538-e806-4e9171e2ca69"
-        },
-        "664c874f-d880-16fb-93c0-db27cc6d4b69" : {
-          "isSystemType" : true,
-          "bundleAlias" : "input_widgets",
-          "typeAlias" : "update_shared_string_attribute",
-          "type" : "latest",
-          "title" : "New widget",
-          "image" : null,
-          "description" : null,
-          "sizeX" : 7.5,
-          "sizeY" : 3,
-          "config" : {
-            "datasources" : [ {
-              "type" : "entity",
-              "name" : null,
-              "entityAliasId" : "bc94b798-c312-7699-16f4-ebcbd49460c3",
-              "filterId" : null,
-              "dataKeys" : [ {
-                "name" : "message",
-                "type" : "attribute",
-                "label" : "message",
-                "color" : "#2196f3",
-                "settings" : { },
-                "_hash" : 0.3586538054646773
-              } ],
-              "alarmFilterConfig" : {
-                "statusList" : [ "ACTIVE" ]
-              }
-            } ],
-            "timewindow" : {
-              "displayValue" : "",
-              "selectedTab" : 0,
-              "realtime" : {
-                "realtimeType" : 1,
-                "interval" : 1000,
-                "timewindowMs" : 60000,
-                "quickInterval" : "CURRENT_DAY"
-              },
-              "history" : {
-                "historyType" : 0,
-                "interval" : 1000,
-                "timewindowMs" : 60000,
-                "fixedTimewindow" : {
-                  "startTimeMs" : 1697178686423,
-                  "endTimeMs" : 1697265086423
-                },
-                "quickInterval" : "CURRENT_DAY"
-              },
-              "aggregation" : {
-                "type" : "AVG",
-                "limit" : 25000
-              }
-            },
-            "showTitle" : true,
-            "backgroundColor" : "#fff",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "8px",
-            "settings" : { },
-            "title" : "Send Announcement",
-            "dropShadow" : true,
-            "enableFullscreen" : false,
-            "enableDataExport" : false,
-            "widgetStyle" : { },
-            "titleStyle" : {
-              "fontSize" : "16px",
-              "fontWeight" : 400
-            },
-            "useDashboardTimewindow" : true,
-            "showLegend" : false,
-            "actions" : { },
-            "showTitleIcon" : false,
-            "titleTooltip" : "",
-            "widgetCss" : "",
-            "pageSize" : 1024,
-            "noDataDisplayMessage" : ""
-          },
-          "row" : 0,
-          "col" : 0,
-          "id" : "664c874f-d880-16fb-93c0-db27cc6d4b69"
         },
         "5246a4d8-6471-d6cd-2b06-37daadf2e884" : {
           "isSystemType" : true,
@@ -741,6 +627,83 @@
           "row" : 0,
           "col" : 0,
           "id" : "2bfac387-f075-b27d-59ef-ebc19676d1d8"
+        },
+        "c83dfa83-37b7-8f4d-9a50-77392c3c0dfc" : {
+          "isSystemType" : false,
+          "bundleAlias" : "send_announcement",
+          "typeAlias" : "send_announcement",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "bc94b798-c312-7699-16f4-ebcbd49460c3",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "message",
+                "type" : "attribute",
+                "label" : "message",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.5991557973188917
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1699969587252,
+                  "endTimeMs" : 1700055987252
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : { },
+            "title" : "Send Announcement",
+            "useDashboardTimewindow" : true,
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "widgetStyle" : { },
+            "widgetCss" : "",
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : "",
+            "showLegend" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "c83dfa83-37b7-8f4d-9a50-77392c3c0dfc"
         }
       },
       "states" : {
@@ -774,12 +737,6 @@
                   "row" : 4,
                   "col" : 16
                 },
-                "664c874f-d880-16fb-93c0-db27cc6d4b69" : {
-                  "sizeX" : 7,
-                  "sizeY" : 3,
-                  "row" : 9,
-                  "col" : 0
-                },
                 "5246a4d8-6471-d6cd-2b06-37daadf2e884" : {
                   "sizeX" : 9,
                   "sizeY" : 3,
@@ -791,6 +748,12 @@
                   "sizeY" : 3,
                   "row" : 9,
                   "col" : 16
+                },
+                "c83dfa83-37b7-8f4d-9a50-77392c3c0dfc" : {
+                  "sizeX" : 7,
+                  "sizeY" : 3,
+                  "row" : 9,
+                  "col" : 0
                 }
               },
               "gridSettings" : {
@@ -798,7 +761,11 @@
                 "columns" : 24,
                 "margin" : 10,
                 "outerMargin" : true,
-                "backgroundSizeMode" : "100%"
+                "backgroundSizeMode" : "100%",
+                "autoFillHeight" : false,
+                "backgroundImageUrl" : null,
+                "mobileAutoFillHeight" : false,
+                "mobileRowHeight" : 70
               }
             }
           }
@@ -838,9 +805,58 @@
             "entityType" : "DEVICE",
             "entityList" : [ "d7c0f630-638d-11ee-8816-b3b2ecd2ae97", "630a8b30-46be-11ee-8816-b3b2ecd2ae97", "dfe1cff0-71a3-11ee-8816-b3b2ecd2ae97" ]
           }
+        },
+        "8b6f55a0-b35a-0db8-d20d-172599598f54" : {
+          "id" : "8b6f55a0-b35a-0db8-d20d-172599598f54",
+          "alias" : "Test",
+          "filter" : {
+            "type" : "entityList",
+            "resolveMultiple" : true,
+            "entityType" : "DEVICE",
+            "entityList" : [ "169e5c60-78a8-11ee-8816-b3b2ecd2ae97", "1d19c110-78a8-11ee-8816-b3b2ecd2ae97" ]
+          }
+        },
+        "a7624434-817e-bdba-eb78-6d627180b78e" : {
+          "id" : "a7624434-817e-bdba-eb78-6d627180b78e",
+          "alias" : "luckyDev",
+          "filter" : {
+            "type" : "entityList",
+            "resolveMultiple" : true,
+            "entityType" : "DEVICE",
+            "entityList" : [ "fbe27620-8047-11ee-8816-b3b2ecd2ae97", "2a134290-8048-11ee-8816-b3b2ecd2ae97" ]
+          }
         }
       },
-      "filters" : { },
+      "filters" : {
+        "638bfd0d-713f-c82c-ea78-939c7cc8f694" : {
+          "id" : "638bfd0d-713f-c82c-ea78-939c7cc8f694",
+          "filter" : "test-filter",
+          "keyFilters" : [ {
+            "key" : {
+              "type" : "ATTRIBUTE",
+              "key" : "messages"
+            },
+            "valueType" : "STRING",
+            "predicates" : [ {
+              "keyFilterPredicate" : {
+                "operation" : "EQUAL",
+                "value" : {
+                  "defaultValue" : ""
+                },
+                "ignoreCase" : true,
+                "type" : "STRING"
+              },
+              "userInfo" : {
+                "editable" : true,
+                "label" : "",
+                "autogeneratedLabel" : true,
+                "order" : 0
+              }
+            } ]
+          } ],
+          "editable" : true
+        }
+      },
       "timewindow" : {
         "displayValue" : "",
         "hideInterval" : false,
@@ -878,7 +894,14 @@
         "showEntitiesSelect" : true,
         "showDashboardTimewindow" : true,
         "showDashboardExport" : true,
-        "toolbarAlwaysOpen" : true
+        "toolbarAlwaysOpen" : true,
+        "titleColor" : "rgba(0,0,0,0.870588)",
+        "showDashboardLogo" : false,
+        "dashboardLogoUrl" : null,
+        "hideToolbar" : false,
+        "showFilters" : true,
+        "showUpdateDashboardImage" : true,
+        "dashboardCss" : ""
       }
     },
     "externalId" : {

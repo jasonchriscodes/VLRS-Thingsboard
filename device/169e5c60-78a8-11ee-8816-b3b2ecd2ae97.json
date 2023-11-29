@@ -8,7 +8,7 @@
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
-      "id" : "7f40a560-4721-11ee-8816-b3b2ecd2ae97"
+      "id" : "9862fe60-8044-11ee-8816-b3b2ecd2ae97"
     },
     "deviceData" : {
       "configuration" : {
@@ -26,15 +26,15 @@
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "d7c0f630-638d-11ee-8816-b3b2ecd2ae97"
+      "id" : "169e5c60-78a8-11ee-8816-b3b2ecd2ae97"
     },
     "label" : "",
-    "name" : "Bus B Device",
+    "name" : "Test 1",
     "softwareId" : null,
     "type" : "default"
   },
   "credentials" : {
-    "credentialsId" : "YiSbp8zzJyt3htZ7ECI0",
+    "credentialsId" : "WWtKksDPDiRD7C8gQ8HO",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -42,11 +42,35 @@
     "additionalInfo" : null,
     "from" : {
       "entityType" : "DEVICE",
-      "id" : "d7c0f630-638d-11ee-8816-b3b2ecd2ae97"
+      "id" : "169e5c60-78a8-11ee-8816-b3b2ecd2ae97"
     },
     "to" : {
+      "entityType" : "CUSTOMER",
+      "id" : "9862fe60-8044-11ee-8816-b3b2ecd2ae97"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
       "entityType" : "DEVICE",
-      "id" : "dfe1cff0-71a3-11ee-8816-b3b2ecd2ae97"
+      "id" : "169e5c60-78a8-11ee-8816-b3b2ecd2ae97"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "2bb93cf0-7ff1-11ee-8816-b3b2ecd2ae97"
+    },
+    "type" : "Manages",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "169e5c60-78a8-11ee-8816-b3b2ecd2ae97"
+    },
+    "to" : {
+      "entityType" : "ENTITY_VIEW",
+      "id" : "3fde1930-7ff1-11ee-8816-b3b2ecd2ae97"
     },
     "type" : "Manages",
     "typeGroup" : "COMMON"
@@ -57,7 +81,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1700069038900,
+      "lastUpdateTs" : 1698838015743,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -65,42 +89,10 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1700069038900,
-      "longValue" : 1700069038900,
-      "strValue" : null
-    }, {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "lastActivityTime",
-      "lastUpdateTs" : 1700068390341,
-      "longValue" : 1700068388706,
-      "strValue" : null
-    }, {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "lastConnectTime",
-      "lastUpdateTs" : 1700068388638,
-      "longValue" : 1700068388638,
-      "strValue" : null
-    }, {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1700068388727,
-      "longValue" : 1700068388727,
+      "lastUpdateTs" : 1698838015743,
+      "longValue" : 1698838015742,
       "strValue" : null
     } ],
-    "SHARED_SCOPE" : [ {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "message",
-      "lastUpdateTs" : 1700403698825,
-      "longValue" : null,
-      "strValue" : "test 67566"
-    } ]
+    "SHARED_SCOPE" : [ ]
   }
 }

@@ -8,7 +8,7 @@
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
-      "id" : "7f40a560-4721-11ee-8816-b3b2ecd2ae97"
+      "id" : "9862fe60-8044-11ee-8816-b3b2ecd2ae97"
     },
     "deviceData" : {
       "configuration" : {
@@ -26,15 +26,15 @@
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "dfe1cff0-71a3-11ee-8816-b3b2ecd2ae97"
+      "id" : "1d19c110-78a8-11ee-8816-b3b2ecd2ae97"
     },
     "label" : "",
-    "name" : "Bus C Device",
+    "name" : "Test 2",
     "softwareId" : null,
     "type" : "default"
   },
   "credentials" : {
-    "credentialsId" : "z0MQXzmMsNZwiD9Pwn6J",
+    "credentialsId" : "Wgf5Fei8ufj19u48v3L2",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -42,11 +42,23 @@
     "additionalInfo" : null,
     "from" : {
       "entityType" : "DEVICE",
-      "id" : "d7c0f630-638d-11ee-8816-b3b2ecd2ae97"
+      "id" : "1d19c110-78a8-11ee-8816-b3b2ecd2ae97"
     },
     "to" : {
+      "entityType" : "CUSTOMER",
+      "id" : "9862fe60-8044-11ee-8816-b3b2ecd2ae97"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
       "entityType" : "DEVICE",
-      "id" : "dfe1cff0-71a3-11ee-8816-b3b2ecd2ae97"
+      "id" : "1d19c110-78a8-11ee-8816-b3b2ecd2ae97"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "2bb93cf0-7ff1-11ee-8816-b3b2ecd2ae97"
     },
     "type" : "Manages",
     "typeGroup" : "COMMON"
@@ -54,35 +66,11 @@
     "additionalInfo" : null,
     "from" : {
       "entityType" : "DEVICE",
-      "id" : "dfe1cff0-71a3-11ee-8816-b3b2ecd2ae97"
+      "id" : "1d19c110-78a8-11ee-8816-b3b2ecd2ae97"
     },
     "to" : {
-      "entityType" : "DEVICE",
-      "id" : "dfe1cff0-71a3-11ee-8816-b3b2ecd2ae97"
-    },
-    "type" : "Manages",
-    "typeGroup" : "COMMON"
-  }, {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "DEVICE",
-      "id" : "dfe1cff0-71a3-11ee-8816-b3b2ecd2ae97"
-    },
-    "to" : {
-      "entityType" : "DEVICE",
-      "id" : "dfe1cff0-71a3-11ee-8816-b3b2ecd2ae97"
-    },
-    "type" : "Manages",
-    "typeGroup" : "COMMON"
-  }, {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "DEVICE",
-      "id" : "630a8b30-46be-11ee-8816-b3b2ecd2ae97"
-    },
-    "to" : {
-      "entityType" : "DEVICE",
-      "id" : "dfe1cff0-71a3-11ee-8816-b3b2ecd2ae97"
+      "entityType" : "ENTITY_VIEW",
+      "id" : "3fde1930-7ff1-11ee-8816-b3b2ecd2ae97"
     },
     "type" : "Manages",
     "typeGroup" : "COMMON"
@@ -93,7 +81,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1700119619070,
+      "lastUpdateTs" : 1698838015742,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -101,32 +89,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1700119619070,
-      "longValue" : 1700119619070,
-      "strValue" : null
-    }, {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "lastActivityTime",
-      "lastUpdateTs" : 1700118997323,
-      "longValue" : 1700118995540,
-      "strValue" : null
-    }, {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "lastConnectTime",
-      "lastUpdateTs" : 1700118994951,
-      "longValue" : 1700118994951,
-      "strValue" : null
-    }, {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1700118995550,
-      "longValue" : 1700118995550,
+      "lastUpdateTs" : 1698838015742,
+      "longValue" : 1698838015742,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ {
@@ -134,9 +98,17 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "message",
-      "lastUpdateTs" : 1700403698835,
+      "lastUpdateTs" : 1699675040186,
       "longValue" : null,
-      "strValue" : "test 67566"
+      "strValue" : "23qwewe"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "messages",
+      "lastUpdateTs" : 1699682571625,
+      "longValue" : null,
+      "strValue" : "p"
     } ]
   }
 }

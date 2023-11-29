@@ -1,0 +1,53 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "",
+      "homeDashboardId" : null,
+      "homeDashboardHideToolbar" : true
+    },
+    "address" : null,
+    "address2" : null,
+    "city" : null,
+    "country" : null,
+    "email" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "9862fe60-8044-11ee-8816-b3b2ecd2ae97"
+    },
+    "name" : "Customer-Lucky",
+    "phone" : null,
+    "state" : null,
+    "title" : "Customer-Lucky",
+    "zip" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "169e5c60-78a8-11ee-8816-b3b2ecd2ae97"
+    },
+    "to" : {
+      "entityType" : "CUSTOMER",
+      "id" : "9862fe60-8044-11ee-8816-b3b2ecd2ae97"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "1d19c110-78a8-11ee-8816-b3b2ecd2ae97"
+    },
+    "to" : {
+      "entityType" : "CUSTOMER",
+      "id" : "9862fe60-8044-11ee-8816-b3b2ecd2ae97"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
