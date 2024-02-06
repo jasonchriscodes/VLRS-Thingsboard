@@ -60,7 +60,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1701223078360,
+      "lastUpdateTs" : 1707225009886,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -68,32 +68,32 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1700430539893,
-      "longValue" : 1700430539890,
+      "lastUpdateTs" : 1707224477486,
+      "longValue" : 1707224477486,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1701223297340,
-      "longValue" : 1701223296904,
+      "lastUpdateTs" : 1707226093323,
+      "longValue" : 1707226092947,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1701223100446,
-      "longValue" : 1701223100446,
+      "lastUpdateTs" : 1707226083594,
+      "longValue" : 1707226083594,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1700429926946,
-      "longValue" : 1700429926946,
+      "lastUpdateTs" : 1707226092951,
+      "longValue" : 1707226092951,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ {
@@ -131,11 +131,27 @@
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
+      "jsonValue" : "{\"busConfig\":[{\"aid\":\"e465ba59865c6727\",\"bus\":\"Bus XYZ\"}]}",
+      "key" : "config",
+      "lastUpdateTs" : 1707086903994,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
       "jsonValue" : null,
       "key" : "message",
-      "lastUpdateTs" : 1700403698838,
+      "lastUpdateTs" : 1707225180841,
       "longValue" : null,
-      "strValue" : "test 67566"
+      "strValue" : "Bus B will be 5 minutes late 1"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "name",
+      "lastUpdateTs" : 1706830974435,
+      "longValue" : null,
+      "strValue" : "Bus A"
     } ]
   }
 }

@@ -93,7 +93,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1700119619070,
+      "lastUpdateTs" : 1707130997261,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -101,32 +101,32 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1700119619070,
-      "longValue" : 1700119619070,
+      "lastUpdateTs" : 1707130997261,
+      "longValue" : 1707130997260,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1700118997323,
-      "longValue" : 1700118995540,
+      "lastUpdateTs" : 1707130352918,
+      "longValue" : 1707130352918,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1700118994951,
-      "longValue" : 1700118994951,
+      "lastUpdateTs" : 1707130352917,
+      "longValue" : 1707130352917,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1700118995550,
-      "longValue" : 1700118995550,
+      "lastUpdateTs" : 1707130352921,
+      "longValue" : 1707130352921,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ {
@@ -134,9 +134,17 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "message",
-      "lastUpdateTs" : 1700403698835,
+      "lastUpdateTs" : 1707225180843,
       "longValue" : null,
-      "strValue" : "test 67566"
+      "strValue" : "Bus B will be 5 minutes late 1"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "name",
+      "lastUpdateTs" : 1706831013761,
+      "longValue" : null,
+      "strValue" : "Bus C"
     } ]
   }
 }

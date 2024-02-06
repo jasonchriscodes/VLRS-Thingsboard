@@ -98,9 +98,17 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "message",
-      "lastUpdateTs" : 1700403698825,
+      "lastUpdateTs" : 1707225180841,
       "longValue" : null,
-      "strValue" : "test 67566"
+      "strValue" : "Bus B will be 5 minutes late 1"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "name",
+      "lastUpdateTs" : 1706830994165,
+      "longValue" : null,
+      "strValue" : "Bus B"
     } ]
   }
 }
