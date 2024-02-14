@@ -3,7 +3,10 @@
   "entity" : {
     "alias" : "send_announcement",
     "description" : "Send announcement from admin to all other devices",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "8ce51030-82f3-11ee-8816-b3b2ecd2ae97"
+    },
     "id" : {
       "entityType" : "WIDGETS_BUNDLE",
       "id" : "8ce51030-82f3-11ee-8816-b3b2ecd2ae97"

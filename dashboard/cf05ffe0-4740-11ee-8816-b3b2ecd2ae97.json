@@ -813,7 +813,7 @@
             "type" : "entityList",
             "resolveMultiple" : true,
             "entityType" : "DEVICE",
-            "entityList" : [ "169e5c60-78a8-11ee-8816-b3b2ecd2ae97", "1d19c110-78a8-11ee-8816-b3b2ecd2ae97" ]
+            "entityList" : [ "e7e336c0-c505-11ee-8816-b3b2ecd2ae97", "e8064f20-c505-11ee-8816-b3b2ecd2ae97" ]
           }
         },
         "a7624434-817e-bdba-eb78-6d627180b78e" : {
@@ -823,7 +823,7 @@
             "type" : "entityList",
             "resolveMultiple" : true,
             "entityType" : "DEVICE",
-            "entityList" : [ "fbe27620-8047-11ee-8816-b3b2ecd2ae97", "2a134290-8048-11ee-8816-b3b2ecd2ae97" ]
+            "entityList" : [ "ea797200-c505-11ee-8816-b3b2ecd2ae97", "e82792c0-c505-11ee-8816-b3b2ecd2ae97" ]
           }
         }
       },

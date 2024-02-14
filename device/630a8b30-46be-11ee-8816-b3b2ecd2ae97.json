@@ -32,7 +32,7 @@
       "id" : "630a8b30-46be-11ee-8816-b3b2ecd2ae97"
     },
     "label" : "",
-    "name" : "Bus A Device",
+    "name" : "Bus Operator",
     "softwareId" : null,
     "type" : "default"
   },
@@ -60,7 +60,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1707225009886,
+      "lastUpdateTs" : 1707925832561,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -68,32 +68,32 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1707224477486,
-      "longValue" : 1707224477486,
+      "lastUpdateTs" : 1707925414239,
+      "longValue" : 1707925414238,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1707226093323,
-      "longValue" : 1707226092947,
+      "lastUpdateTs" : 1707926452299,
+      "longValue" : 1707926452286,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1707226083594,
-      "longValue" : 1707226083594,
+      "lastUpdateTs" : 1707926444046,
+      "longValue" : 1707926444046,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1707226092951,
-      "longValue" : 1707226092951,
+      "lastUpdateTs" : 1707926452293,
+      "longValue" : 1707926452293,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ {
@@ -131,9 +131,9 @@
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
-      "jsonValue" : "{\"busConfig\":[{\"aid\":\"e465ba59865c6727\",\"bus\":\"Bus XYZ\"}]}",
+      "jsonValue" : "{\"busConfig\":[{\"aid\":\"8d34bdc9a5c78c42\",\"bus\":\"Bus A\",\"accessToken\":\"z0MQXzmMsNZwiD9Pwn6J\"},{\"aid\":\"2b039058a1a5f8a3\",\"bus\":\"Bus B\",\"accessToken\":\"YiSbp8zzJyt3htZ7ECI0\"}]}",
       "key" : "config",
-      "lastUpdateTs" : 1707086903994,
+      "lastUpdateTs" : 1707926190028,
       "longValue" : null,
       "strValue" : null
     }, {

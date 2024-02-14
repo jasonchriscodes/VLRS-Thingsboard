@@ -22,14 +22,17 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "401a4f70-4196-11ee-969d-5b2424a9a3ad"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "dfe1cff0-71a3-11ee-8816-b3b2ecd2ae97"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
       "id" : "dfe1cff0-71a3-11ee-8816-b3b2ecd2ae97"
     },
     "label" : "",
-    "name" : "Bus C Device",
+    "name" : "Bus A Device",
     "softwareId" : null,
     "type" : "default"
   },
@@ -89,11 +92,11 @@
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : false,
+      "booleanValue" : true,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1707130997261,
+      "lastUpdateTs" : 1707926259853,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -101,32 +104,32 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1707130997261,
-      "longValue" : 1707130997260,
+      "lastUpdateTs" : 1707924274236,
+      "longValue" : 1707924274235,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1707130352918,
-      "longValue" : 1707130352918,
+      "lastUpdateTs" : 1707926638304,
+      "longValue" : 1707926637844,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1707130352917,
-      "longValue" : 1707130352917,
+      "lastUpdateTs" : 1707926429898,
+      "longValue" : 1707926429898,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1707130352921,
-      "longValue" : 1707130352921,
+      "lastUpdateTs" : 1707926389547,
+      "longValue" : 1707926389547,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ {

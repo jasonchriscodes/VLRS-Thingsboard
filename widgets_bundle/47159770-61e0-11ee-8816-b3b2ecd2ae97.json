@@ -3,7 +3,10 @@
   "entity" : {
     "alias" : "chat_dashbooard",
     "description" : "A widget to chat with publisher app",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "47159770-61e0-11ee-8816-b3b2ecd2ae97"
+    },
     "id" : {
       "entityType" : "WIDGETS_BUNDLE",
       "id" : "47159770-61e0-11ee-8816-b3b2ecd2ae97"

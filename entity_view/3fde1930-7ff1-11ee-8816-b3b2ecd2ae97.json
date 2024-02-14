@@ -10,7 +10,10 @@
       "entityType" : "ASSET",
       "id" : "2bb93cf0-7ff1-11ee-8816-b3b2ecd2ae97"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ENTITY_VIEW",
+      "id" : "3fde1930-7ff1-11ee-8816-b3b2ecd2ae97"
+    },
     "keys" : {
       "attributes" : {
         "cs" : null,
